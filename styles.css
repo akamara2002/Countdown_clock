@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Mercy_1.jpg);
+    background-size: 540px;
+}
+
+.wrap {
+    max-width: 500px;
+    margin: 200px auto;
+}
+
+.clock {
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+    color: #7DE5ED;
+}
+
+.update {
+    font-weight: 1000;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 60px;
+    padding-top: 25px;
+    color: #A0E4CB;
+}
+
+.down {
+    text-align: center;
+    color: #f50659;
+}
+
+.up {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .up {
+        margin-top: 70px;
+        margin-right: 10px;
+        text-align: left;
+    }
+
+    .down {
+        text-align: left;
+        color: #f50659;
+    }
+
+    .wrap {
+        max-width: 500px;
+        margin: 100px auto;
+        
+    }
+
+    body {
+        background-image: url(Mercy_1.jpg);
+        background-size: cover;
+        
+    }
+
+    .clock {
+        margin-left: 55px;
+        font-size: 30px;
+        font-family: arial;
+        font-weight: 100px;
+        color: #7DE5ED;
+    }
+}
