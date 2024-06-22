@@ -1,4 +1,4 @@
-const countDownDate = new Date("Nov 3, 2023 00:00:00").getTime();
+const countDownDate = new Date("Nov 3, 2024 00:00:00").getTime();
 const clock = document.querySelector(".clock");
 
 
