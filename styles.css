@@ -11,11 +11,12 @@ body {
 .wrap {
     max-width: 500px;
     margin: 200px auto;
+    text-align: center; /* Center align the content */
 }
 
 .clock {
     font-size: 60px;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     color: #7DE5ED;
 }
@@ -54,20 +55,18 @@ body {
     .wrap {
         max-width: 500px;
         margin: 100px auto;
-        
     }
 
     body {
         background-image: url(Mercy_1.jpg);
         background-size: cover;
-        
     }
 
     .clock {
         margin-left: 55px;
         font-size: 30px;
-        font-family: arial;
-        font-weight: 100px;
+        font-family: Arial, sans-serif;
+        font-weight: 100;
         color: #7DE5ED;
     }
 }
